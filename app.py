@@ -27,5 +27,5 @@ def detect_eye_state():
         return jsonify({"error": str(e)}), 500
 
 
-if __name__ == "__main__":
-    app.run(debug=True)  # remove debug=True for production
+# if __name__ == "__main__":
+#     app.run(debug=True)  # remove debug=True for production
