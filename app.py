@@ -8,6 +8,11 @@ app = Flask(__name__)
 eye_detector = EyeDetector()
 
 
+@app.route("/")
+def main():
+    return "Welcome to the Eye Detection API"
+
+
 @app.route("/detect_eye_state", methods=["POST"])
 def detect_eye_state():
     """
