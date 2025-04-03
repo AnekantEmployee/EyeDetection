@@ -1,6 +1,6 @@
 import io
 from PIL import Image
-from .eye_detection import EyeDetector
+from eye_detection import EyeDetector
 from flask import Flask, request, jsonify
 
 
